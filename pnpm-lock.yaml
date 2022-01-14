@@ -9,11 +9,13 @@ specifiers:
   eslint: ^6.7.2
   eslint-plugin-vue: ^6.2.2
   vue: ^2.6.11
+  vue-flux: ^6.4.0
   vue-template-compiler: ^2.6.11
 
 dependencies:
   core-js: 3.20.2
   vue: 2.6.14
+  vue-flux: 6.4.0
 
 devDependencies:
   '@vue/cli-plugin-babel': 4.5.15_4c1e5ebbf041a85328f9984e4ede8f8a
@@ -8270,6 +8272,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-flux/6.4.0:
+    resolution: {integrity: sha512-JMYDkNS4Ul1yugYzrabDnHdjM+wtHYo04AirFoko2mLp20BTpFnCpI2sselj4t6JT7xDnRXOr61n02ZSCb6h0g==}
+    dev: false
 
   /vue-hot-reload-api/2.3.4:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
