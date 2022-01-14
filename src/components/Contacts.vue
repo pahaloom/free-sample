@@ -1,6 +1,6 @@
 <template>
     <div class="contacts">
-Õhtu maksumus on alates 110 eurot.
+Õhtu maksumus on alates 398 eurost (mõningase tingimise võimalusega).
 <p/>
 Lisainfo: Peeter<br/>
 Tel: pigem kirjuta<br/>
