@@ -1,7 +1,6 @@
 <template>
     <div class="contacts">
-Õhtu maksumus on alates 398 eurost (mõningase tingimise võimalusega).
-<p/>
+Õhtu maksumus on alates 201 € (olenevalt peamiselt kui kauaks ja mida soovitakse)<p/>
 Lisainfo: Peeter<br/>
 Tel: pigem kirjuta<br/>
 ryytlikelder@gmail.com
@@ -10,7 +9,7 @@ ryytlikelder@gmail.com
 
 <style scoped>
 .contacts {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 500;
     margin-bottom: 3em;
 }
