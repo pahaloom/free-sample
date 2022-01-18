@@ -1,5 +1,6 @@
-export const ROOT = "glry/";
-export let imgs = ["23674830_2200412179984373_2481314641104593806_o-1030x684.jpg"
+const ROOT = "glry/";
+
+const imgs = ["23674830_2200412179984373_2481314641104593806_o-1030x684.jpg"
         ,"23674960_2200412593317665_3960535609147685570_o-684x1030.jpg"
         ,"23800141_2200412459984345_8776987885333163168_o-1030x684.jpg"
         ,"DSC_0307.JPG"
@@ -22,6 +23,11 @@ export let imgs = ["23674830_2200412179984373_2481314641104593806_o-1030x684.jpg
         ,"DSC_0342.JPG"
         ,"DSC_0344.JPG"
         ,"DSC_0345.JPG"];
+
 export function getImages() {
     return imgs.map(function(el) {return ROOT + el;})
+}
+
+export function getCaptions() {
+    return []
 }

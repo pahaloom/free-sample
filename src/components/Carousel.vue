@@ -28,7 +28,10 @@
    </template>
 </vue-flux>
 
-<button @click="$refs.slider.show('next')">NEXT</button>
+<div class="controls">
+   <button @click="$refs.slider.show('prev')">PREV</button>
+   <button @click="$refs.slider.show('next')">NEXT</button>
+</div>
 </div>
 </template>
 
@@ -61,12 +64,12 @@ export default {
       },
       vfImages: glry.getImages(),
       vfTransitions: [ 'fade', 'cube', 'book', 'wave' ],
-      vfCaptions: [
-         'Caption for image 1',
-         'Caption for image 2',
-         'Caption for image 3',
-      ],
+      vfCaptions: glry.getCaptions(),
    }),
+
+   mounted() {
+      this.mounted = true;
+   }
 }
 </script>
 
@@ -85,5 +88,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.controls {
+   margin: .7em;
 }
 </style>
