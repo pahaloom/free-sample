@@ -9,13 +9,17 @@ specifiers:
   eslint: ^6.7.2
   eslint-plugin-vue: ^6.2.2
   vue: ^2.6.11
+  vue-fb-customer-chat: ^0.2.1
   vue-flux: ^6.4.0
+  vue-meta: ^2.4.0
   vue-template-compiler: ^2.6.11
 
 dependencies:
   core-js: 3.20.2
   vue: 2.6.14
+  vue-fb-customer-chat: 0.2.1
   vue-flux: 6.4.0
+  vue-meta: 2.4.0
 
 devDependencies:
   '@vue/cli-plugin-babel': 4.5.15_4c1e5ebbf041a85328f9984e4ede8f8a
@@ -3339,6 +3343,11 @@ packages:
     resolution: {integrity: sha512-95k0GDqvBjZavkuvzx/YqVLv/6YYa17fz6ILMSf7neqQITCPbnfEnQvEgMPNjH4kgobe7+WIL0yJEHku+H3qtQ==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /deepmerge/4.2.2:
+    resolution: {integrity: sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==}
+    engines: {node: '>=0.10.0'}
+    dev: false
 
   /default-gateway/4.2.0:
     resolution: {integrity: sha512-h6sMrVB1VMWVrW13mSc6ia/DwYYw5MN6+exNu1OaJeFac5aSAvwM7lZ0NVfTABuSkQelr4h5oebg3KB1XPdjgA==}
@@ -8273,6 +8282,10 @@ packages:
       - supports-color
     dev: true
 
+  /vue-fb-customer-chat/0.2.1:
+    resolution: {integrity: sha512-LQFIBYQ0rWpQJsC4JyIY13p+eI+qnffwt5O62HjQ+eATSX9mFDQjljJsdxk37MrtJECKXQz2Tl5k1r4nD8f6Nw==}
+    dev: false
+
   /vue-flux/6.4.0:
     resolution: {integrity: sha512-JMYDkNS4Ul1yugYzrabDnHdjM+wtHYo04AirFoko2mLp20BTpFnCpI2sselj4t6JT7xDnRXOr61n02ZSCb6h0g==}
     dev: false
@@ -8317,6 +8330,12 @@ packages:
       webpack: 4.46.0
     dev: true
     optional: true
+
+  /vue-meta/2.4.0:
+    resolution: {integrity: sha512-XEeZUmlVeODclAjCNpWDnjgw+t3WA6gdzs6ENoIAgwO1J1d5p1tezDhtteLUFwcaQaTtayRrsx7GL6oXp/m2Jw==}
+    dependencies:
+      deepmerge: 4.2.2
+    dev: false
 
   /vue-style-loader/4.1.3:
     resolution: {integrity: sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg==}

@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="carousel">
 <vue-flux
    :options="vfOptions"
    :images="vfImages"
@@ -29,8 +29,8 @@
 </vue-flux>
 
 <div class="controls">
-   <button @click="$refs.slider.show('prev')">PREV</button>
-   <button @click="$refs.slider.show('next')">NEXT</button>
+   <button @click="$refs.slider.show('prev')">Eelmine</button>
+   <button @click="$refs.slider.show('next')">Järgmine</button>
 </div>
 </div>
 </template>
@@ -89,7 +89,13 @@ li {
 a {
   color: #42b983;
 }
+.carousel {
+   margin: 2em;
+}
 .controls {
-   margin: .7em;
+   margin-left: .7em;
+   margin-right: .7em;
+   margin-top: .7em;
+   margin-bottom: 6em;
 }
 </style>
