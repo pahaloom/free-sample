@@ -21,6 +21,9 @@ export default {
     Contacts,
     Promo,
     Chat
+  },
+  metaInfo: {
+    title: "Rüütli Kelder"
   }
 }
 </script>
