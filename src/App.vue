@@ -4,6 +4,7 @@
     <Promo/>
     <Contacts/>
     <Carousel/>
+    <Chat/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import Carousel from './components/Carousel.vue'
 import Contacts from './components/Contacts.vue'
 import Promo from './components/Promo.vue'
+import Chat from './components/Chat.vue'
 
 export default {
   name: 'App',
   components: {
     Carousel,
     Contacts,
-    Promo
+    Promo,
+    Chat
   }
 }
 </script>

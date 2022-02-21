@@ -9,12 +9,14 @@ specifiers:
   eslint: ^6.7.2
   eslint-plugin-vue: ^6.2.2
   vue: ^2.6.11
+  vue-fb-customer-chat: ^0.2.1
   vue-flux: ^6.4.0
   vue-template-compiler: ^2.6.11
 
 dependencies:
   core-js: 3.20.2
   vue: 2.6.14
+  vue-fb-customer-chat: 0.2.1
   vue-flux: 6.4.0
 
 devDependencies:
@@ -8272,6 +8274,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-fb-customer-chat/0.2.1:
+    resolution: {integrity: sha512-LQFIBYQ0rWpQJsC4JyIY13p+eI+qnffwt5O62HjQ+eATSX9mFDQjljJsdxk37MrtJECKXQz2Tl5k1r4nD8f6Nw==}
+    dev: false
 
   /vue-flux/6.4.0:
     resolution: {integrity: sha512-JMYDkNS4Ul1yugYzrabDnHdjM+wtHYo04AirFoko2mLp20BTpFnCpI2sselj4t6JT7xDnRXOr61n02ZSCb6h0g==}
