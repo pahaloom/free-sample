@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Rüütli Keldri logo" src="./assets/logo.png">
+    <Promo/>
     <Contacts/>
     <Carousel/>
   </div>
@@ -9,12 +10,14 @@
 <script>
 import Carousel from './components/Carousel.vue'
 import Contacts from './components/Contacts.vue'
+import Promo from './components/Promo.vue'
 
 export default {
   name: 'App',
   components: {
     Carousel,
-    Contacts
+    Contacts,
+    Promo
   }
 }
 </script>
@@ -27,5 +30,15 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.promo {
+  font-size: 3em;
+  font-weight: 500;
+  margin-bottom: 3em;
+}
+.contacts {
+  font-size: 2.6em;
+  font-weight: 250;
+  margin: 1em 0em;
 }
 </style>
