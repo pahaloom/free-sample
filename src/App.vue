@@ -37,14 +37,30 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+a {
+  color: #6b7888;
+}
+a:active {
+  color: #9fadbd;
+}
+a:visited {
+  color: #80646f;
+}
 .promo {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 500;
+  margin-bottom: 3em;
+}
+.promo > hr {
+  border-top: 1px solid #2c3e50;
+  width: 72%;
+}
+div.promo {
   margin-bottom: 3em;
 }
 .contacts {
   font-size: 2.6em;
   font-weight: 250;
-  margin: 1em 0em;
+  margin: 2em 0em;
 }
 </style>
