@@ -29,8 +29,8 @@
 </vue-flux>
 
 <div class="controls">
-   <button @click="$refs.slider.show('prev')">Eelmine</button>
-   <button @click="$refs.slider.show('next')">Järgmine</button>
+   <button @click="$refs.slider.show('prev')">&larr;</button>
+   <button @click="$refs.slider.show('next')">&rarr;</button>
 </div>
 </div>
 </template>

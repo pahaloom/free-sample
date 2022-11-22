@@ -3,7 +3,7 @@ module.exports = {
 		output: {
 			hashFunction: 'xxhash64'
 		}
-	}
+	},
 	chainWebpack: config => {
 		config
 			.plugin('html')
