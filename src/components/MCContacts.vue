@@ -1,5 +1,5 @@
 <template>
-    <p class="contacts">
-    Küsi hinnapakkumist e-posti teel: ryytlikelder@gmail.com
-    </p>
+    <div class="contacts">
+        <a href="mailto:ryytlikelder@gmail.com" name="contacts">ryytlikelder@gmail.com</a>
+    </div>
 </template>
