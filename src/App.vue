@@ -1,26 +1,26 @@
 <template>
   <div id="app">
     <img alt="Rüütli Keldri logo" src="./assets/logo.png">
-    <Promo/>
-    <Contacts/>
-    <Carousel/>
-    <Chat/>
+    <MCPromo/>
+    <MCContacts/>
+    <MCCarousel/>
+    <MCChat/>
   </div>
 </template>
 
 <script>
-import Carousel from './components/Carousel.vue'
-import Contacts from './components/Contacts.vue'
-import Promo from './components/Promo.vue'
-import Chat from './components/Chat.vue'
+import MCCarousel from './components/MCCarousel.vue'
+import MCContacts from './components/MCContacts.vue'
+import MCPromo from './components/MCPromo.vue'
+import MCChat from './components/MCChat.vue'
 
 export default {
   name: 'App',
   components: {
-    Carousel,
-    Contacts,
-    Promo,
-    Chat
+    MCCarousel,
+    MCContacts,
+    MCPromo,
+    MCChat
   },
   metaInfo: {
     title: "Rüütli Kelder"
